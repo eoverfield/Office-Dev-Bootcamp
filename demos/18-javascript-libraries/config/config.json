@@ -1,0 +1,21 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "java-script-libs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/javaScriptLibs/JavaScriptLibsWebPart.js",
+          "manifest": "./src/webparts/javaScriptLibs/JavaScriptLibsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js"
+  },
+  "externals": {},
+  "localizedResources": {
+    "JavaScriptLibsWebPartStrings": "lib/webparts/javaScriptLibs/loc/{locale}.js"
+  }
+}

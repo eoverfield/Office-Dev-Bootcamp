@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.3.2",
+    "libraryName": "share-point-properties",
+    "libraryId": "b903c027-4be9-488d-b982-5537b9edd234",
+    "environment": "spo"
+  }
+}

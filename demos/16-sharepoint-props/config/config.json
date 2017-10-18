@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-props-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointProps/SharePointPropsWebPart.js",
+          "manifest": "./src/webparts/sharePointProps/SharePointPropsWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-point-props-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointPropsReact/SharePointPropsReactWebPart.js",
+          "manifest": "./src/webparts/sharePointPropsReact/SharePointPropsReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointPropsWebPartStrings": "lib/webparts/sharePointProps/loc/{locale}.js",
+    "SharePointPropsReactWebPartStrings": "lib/webparts/sharePointPropsReact/loc/{locale}.js"
+  }
+}

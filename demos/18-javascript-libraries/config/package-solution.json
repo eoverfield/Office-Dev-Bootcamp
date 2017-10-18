@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "java-script-libraries-client-side-solution",
+    "id": "0fe3fc12-67ff-47c9-9e5c-72851df6999d",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/java-script-libraries.sppkg"
+  }
+}

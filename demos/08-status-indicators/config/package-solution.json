@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "status-indicators-client-side-solution",
+    "id": "49cf1d6f-f593-42f4-97b6-2c23953385ff",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/status-indicators.sppkg"
+  }
+}

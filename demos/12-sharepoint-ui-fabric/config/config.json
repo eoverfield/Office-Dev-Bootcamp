@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldReact/HelloWorldReactWebPart.js",
+          "manifest": "./src/webparts/helloWorldReact/HelloWorldReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-point-ui-fabric-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointUiFabric/SharePointUiFabricWebPart.js",
+          "manifest": "./src/webparts/sharePointUiFabric/SharePointUiFabricWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-point-ui-fabric-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointUiFabric2/SharePointUiFabric2WebPart.js",
+          "manifest": "./src/webparts/sharePointUiFabric2/SharePointUiFabric2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldReactWebPartStrings": "lib/webparts/helloWorldReact/loc/{locale}.js",
+    "SharePointUiFabricWebPartStrings": "lib/webparts/sharePointUiFabric/loc/{locale}.js",
+    "SharePointUiFabric2WebPartStrings": "lib/webparts/sharePointUiFabric2/loc/{locale}.js"
+  }
+}

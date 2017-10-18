@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-ui-fabric-client-side-solution",
+    "id": "7e3235d8-f017-4d29-b491-5f32c89f7808",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-ui-fabric.sppkg"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-custom-properties-client-side-solution",
+    "id": "bbda2d51-6e8d-4a01-a6e2-7a2107b339a4",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-custom-properties.sppkg"
+  }
+}

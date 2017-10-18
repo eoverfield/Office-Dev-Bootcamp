@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "status-indicators-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/statusIndicators/StatusIndicatorsWebPart.js",
+          "manifest": "./src/webparts/statusIndicators/StatusIndicatorsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StatusIndicatorsWebPartStrings": "lib/webparts/statusIndicators/loc/{locale}.js"
+  }
+}

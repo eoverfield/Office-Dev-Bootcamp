@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mock-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mockData/MockDataWebPart.js",
+          "manifest": "./src/webparts/mockData/MockDataWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-point-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointData/SharePointDataWebPart.js",
+          "manifest": "./src/webparts/sharePointData/SharePointDataWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-point-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointCrud/SharePointCrudWebPart.js",
+          "manifest": "./src/webparts/sharePointCrud/SharePointCrudWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MockDataWebPartStrings": "lib/webparts/mockData/loc/{locale}.js",
+    "SharePointDataWebPartStrings": "lib/webparts/sharePointData/loc/{locale}.js",
+    "SharePointCrudWebPartStrings": "lib/webparts/sharePointCrud/loc/{locale}.js"
+  }
+}
